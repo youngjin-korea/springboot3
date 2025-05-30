@@ -1,8 +1,8 @@
 package com.blog.springbootdeveloper.controller;
 
 import com.blog.springbootdeveloper.domain.Article;
-import com.blog.springbootdeveloper.dto.AddArticleRequest;
-import com.blog.springbootdeveloper.dto.UpdateArticleRequest;
+import com.blog.springbootdeveloper.dto.api.AddArticleRequest;
+import com.blog.springbootdeveloper.dto.api.UpdateArticleRequest;
 import com.blog.springbootdeveloper.repository.BlogRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,10 +18,8 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import java.util.List;
-import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

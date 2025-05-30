@@ -1,8 +1,8 @@
 package com.blog.springbootdeveloper.service;
 
 import com.blog.springbootdeveloper.domain.Article;
-import com.blog.springbootdeveloper.dto.AddArticleRequest;
-import com.blog.springbootdeveloper.dto.UpdateArticleRequest;
+import com.blog.springbootdeveloper.dto.api.AddArticleRequest;
+import com.blog.springbootdeveloper.dto.api.UpdateArticleRequest;
 import com.blog.springbootdeveloper.repository.BlogRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

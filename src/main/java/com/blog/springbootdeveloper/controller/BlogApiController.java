@@ -1,9 +1,9 @@
 package com.blog.springbootdeveloper.controller;
 
 import com.blog.springbootdeveloper.domain.Article;
-import com.blog.springbootdeveloper.dto.AddArticleRequest;
-import com.blog.springbootdeveloper.dto.ArticleResponse;
-import com.blog.springbootdeveloper.dto.UpdateArticleRequest;
+import com.blog.springbootdeveloper.dto.api.AddArticleRequest;
+import com.blog.springbootdeveloper.dto.api.ArticleResponse;
+import com.blog.springbootdeveloper.dto.api.UpdateArticleRequest;
 import com.blog.springbootdeveloper.service.BlogService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
