@@ -5,6 +5,7 @@ import com.blog.springbootdeveloper.dto.api.AddArticleRequest;
 import com.blog.springbootdeveloper.dto.api.UpdateArticleRequest;
 import com.blog.springbootdeveloper.repository.BlogRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

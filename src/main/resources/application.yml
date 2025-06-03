@@ -10,3 +10,8 @@ spring:
   h2:
     console:
       enabled: true
+
+# JWT Payload(내용)-issuser 이슈발급자, Signature(서명)-securit_key 비밀키는 필수요건
+jwt:
+  issuer: jwtissueriskim@gmail.com
+  secret_key: study-springboot-jwt
